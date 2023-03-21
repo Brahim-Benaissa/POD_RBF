@@ -11,3 +11,8 @@ Then plots the selected modes, calculates the mean absolute prediction error, me
 
 
 2. USE_Reduced_PODRBF_Model for making predictions using a reduced model with radial basis function (RBF) interpolation. The script loads the parameters and the reduced model from two text files, then selects an RBF function and a gamma value (a parameter for tuning the interpolation to the problem). The script then generates 10 sets of input parameters (randomly selected within the range of the loaded parameters), normalizes them using a NormalizeModelParameters function, and calculates RBF interpolation parameters using an RBF_interpolation function. The Reduced_Model is then used to make predictions based on the RBF interpolation parameters, and the results are displayed in a plot. The script also plots the selected RBF function using an RBF_Fnc_Display function.
+
+
+ **YUKI Algorithm and POD-RBF for Elastostatic and dynamic crack identification**. *Journal of Computational Science*. 2021. <a href="https://doi.org/10.1016/j.jocs.2021.101451" target="_blank"> https://doi.org/10.1016/j.jocs.2021.101451 </a>.  
+ 
+ **Crack Identification Using Model Reduction based on Proper Orthogonal Decomposition coupled with Radial Basis Functions**. *Structural and Multidisciplinary Optimization*. 2016. <a href="https://doi.org/10.1007/s00158-016-1400-y" target="_blank"> https://doi.org/10.1007/s00158-016-1400-y </a>
