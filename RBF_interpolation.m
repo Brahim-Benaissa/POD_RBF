@@ -1,3 +1,6 @@
+% https://doi.org/10.1007/s00158-016-1400-y
+% https://doi.org/10.1016/j.jocs.2021.101451 
+
 function RBF_interpolation_parameters = RBF_interpolation (Model_Parameters, Norm_Parameters, Fcn, gamma) 
 
     % Calculate RBF interpolation parameters according to the chosen RBF interpolation function

@@ -1,3 +1,6 @@
+% https://doi.org/10.1007/s00158-016-1400-y
+% https://doi.org/10.1016/j.jocs.2021.101451 
+
 function [Coefficients, Reduced_Coefficients] = Coefficients_Truncation(Amplitudes, Reduced_Amplitudes, Model_Param)
 
     % Normalize model parameters
